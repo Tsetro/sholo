@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cathoppy</title>
+		<link rel="stylesheet" href="color.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+		<link rel="stylesheet" href="swiper.css" />
+		<link rel="icon" type="image" href="sholo.png">
+	</head>
+	<body>
+	<div class="header">
+			<div class="container">
+				<div class="flex">
+					<div class="logo">
+						<img src="sholo.png"></img>
+					</div>
+					<div class="menu">
+						<ul>
+							<li><a href="home.html"><i class="bi bi-house-door-fill"></i>Home</a></li>
+							<li><a href="products.html"><i class="bi bi-bag"></i>Products</a></li>
+							<li><a href="color.html" class="123"><i class="bi bi-pencil"></i>Color</a></li>
+							<li><a href="#footer"><i class="bi bi-telephone"></i>Contact us</a></li>
+						</ul>
+					</div>
+					<div class="search">
+						<input type="search" placeholder="Search your Templates">
+					</div>
+					<div class="icon">
+						<a href="cart.html"><i class="bi bi-shop-window"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="cards">
+			<div class="color-choose">
+				<!-- Swiper -->
+					<div class="swiper mySwiper" id="hoodiecolor">
+						<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="greyhoodie.png"><p class="pswiper">Grey Hoodie</p></div>
+						<div class="swiper-slide"><img src="redhoodie.png"><p class="pswiper">red Hoodie</p></div>
+						<div class="swiper-slide"><img src="cyanhoodie.png"><p class="pswiper">cyan Hoodie</p></div>
+						<div class="swiper-slide"><img src="greenhoodie.png"><p class="pswiper">green Hoodie</p></div>
+						<div class="swiper-slide"><img src="purplehoodie.png"><p class="pswiper">purple Hoodie</p></div>
+						<div class="swiper-slide"><img src="blackhoodie.png"><p class="pswiper">black Hoodie </p></div>
+						</div>
+							<div class="swiper-pagination"></div>
+					</div>	
+					<div class="swiper mySwiper2" id="shirtcolor">
+						<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="greyshirt.png"><p class="pswiper">grey shirt</p></div>
+						<div class="swiper-slide"><img src="redshirt.png"><p class="pswiper">red shirt</p></div>
+						<div class="swiper-slide"><img src="cyanshirt.png"><p class="pswiper">cyan shirt</p></div>
+						<div class="swiper-slide"><img src="greenshirt.png"><p class="pswiper">green shirt</p></div>
+						<div class="swiper-slide"><img src="purpleshirt.png"><p class="pswiper">purple shirt</p></div>
+						<div class="swiper-slide"><img src="blackshirt.png"><p class="pswiper">black shirt</p></div>
+						</div>
+							<div class="swiper-pagination"></div>
+					</div>
+					<div class="swiper mySwiper3" id="polocolor">
+						<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="greypolo.png"><p class="pswiper">grey polo</p></div>
+						<div class="swiper-slide"><img src="redpolo.png"><p class="pswiper">red polo</p></div>
+						<div class="swiper-slide"><img src="cyanpolo.png"><p class="pswiper">cyan polo</p></div>
+						<div class="swiper-slide"><img src="greenpolo.png"><p class="pswiper">green polo</p></div>
+						<div class="swiper-slide"><img src="purplepolo.png"><p class="pswiper">purple polo</p></div>
+						<div class="swiper-slide"><img src="blackpolo.png"><p class="pswiper">black polo</p></div>
+						</div>
+							<div class="swiper-pagination"></div>
+					</div>
+					<div class="swiper mySwiper4" id="pantscolor">
+						<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="greypants.png"><p class="pswiper">grey pants</p></div>
+						<div class="swiper-slide"><img src="redpants.png"><p class="pswiper">red pants</p></div>
+						<div class="swiper-slide"><img src="cyanpants.png"><p class="pswiper">cyan pants</p></div>
+						<div class="swiper-slide"><img src="greenpants.png"><p class="pswiper">green pants</p></div>
+						<div class="swiper-slide"><img src="purplepants.png"><p class="pswiper">purple pants</p></div>
+						<div class="swiper-slide"><img src="blackpants.png"><p class="pswiper">black pants</p></div>
+						</div>
+							<div class="swiper-pagination"></div>
+					</div>
+			</div>
+		</div>	
+		<div class="footer" id="footer">
+			<div class="boxing">
+				<div class="exp">
+					<h1>Sholo</h1>
+					<p class="p1">Anywhere and anytime to you!</p>
+					<p class="p2">With many varieties for you to choose.</p>
+					<p class="contactus">Business mail:</p>
+					<p class="contactus2">cntctiiguum@gmail.com</p>
+				</div>
+				<div class="nav-link">
+					<a href="home.html">home</a>
+					<a href="products.html">products</a>
+					<a href="color.html">color</a>
+					<a href="#footer">contact</a>
+				</div>
+			</div>
+		</div>
+ <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+	var swiper = new Swiper(".mySwiper2", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+	var swiper = new Swiper(".mySwiper3", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+	var swiper = new Swiper(".mySwiper4", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script> 
+	</body>
+</html>
